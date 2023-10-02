@@ -9,21 +9,26 @@
   <body>
     <form action="html-form">
       <!-- Loading Progress Bar -->
-      <ul class="loading-progress">
-        <li>Basic Info</li>
-        <li>Social Media</li>
-        <li>Profile Image</li>
+      <ul class="progressbar">
+        <li class="icons">basic info</li>
+        <li class="icons">social media</li>
+        <li class="icons">profile image</li>
       </ul>
+
       <!-- Sign Up Form Body -->
-      <div class="sign-up-form">
+      <fieldset class="sign-up-form">
         <h4>Sign Up Form</h4>
         <p>This is step 1</p>
         <!-- <label for="name">Name</label> -->
         <input type="text" id="name" name="name" placeholder="Name" /> <br />
         <!-- <label for="email">Email</label> -->
         <input type="email" name="email" id="email" placeholder="Email" /><br />
-        <button>Next Steps</button>
-      </div>
+        <input type="button" name="next" class="button" value="Next Step" />
+      </fieldset>
     </form>
+    <script
+      src="https://kit.fontawesome.com/5467bdcc1b.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
